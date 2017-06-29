@@ -9,6 +9,7 @@ module.exports = function (config) {
 
     plugins: [
       'karma-mocha',
+      'karma-mocha-reporter',
       'karma-typescript',
       'karma-chrome-launcher',
       'karma-typescript-preprocessor',
@@ -39,7 +40,7 @@ module.exports = function (config) {
     // test results reporter to use
     // possible values: 'dots', 'progress'
     // available reporters: https://npmjs.org/browse/keyword/karma-reporter
-    reporters: ['progress', 'karma-typescript'],
+    reporters: ['progress', 'karma-typescript', 'mocha'],
 
     karmaTypescriptConfig: {
       bundlerOptions: {
