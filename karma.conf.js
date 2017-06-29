@@ -24,7 +24,7 @@ module.exports = function (config) {
 
     // list of files / patterns to load in the browser
     files: [
-      'test/*.js', 'test/*.spec.ts', 'src/*.ts', 'test/*.ts'
+      'test/*.js', 'test/*.spec.ts', 'test/*.ts', 'src/*.ts'
     ],
 
     // list of files to exclude
@@ -60,15 +60,15 @@ module.exports = function (config) {
         removeComments: true, // (optional) Do not emit comments to output.
         concatenateOutput: false, // (optional) Concatenate and emit output to single file. By default true if module option is omited, otherwise false.
         /* Strict Type-Checking Options */
-        // strict: false,                            /* Enable all strict type-checking options. */
-        // strictNullChecks: true,              /* Enable strict null checks. */
-        // noImplicitThis: true,                /* Raise error on 'this' expressions with an implied 'any' type. */
-        // alwaysStrict: true,                  /* Parse in strict mode and emit "use strict" for each source file. */
+        strict: true,                        /* Enable all strict type-checking options. */
+        strictNullChecks: true,              /* Enable strict null checks. */
+        noImplicitThis: true,                /* Raise error on 'this' expressions with an implied 'any' type. */
+        alwaysStrict: true,                  /* Parse in strict mode and emit "use strict" for each source file. */
         // /* Additional Checks */
-        // noUnusedLocals: true,                /* Report errors on unused locals. */
-        // noUnusedParameters: true,            /* Report errors on unused parameters. */
-        // noImplicitReturns: true,             /* Report error when not all code paths in function return a value. */
-        // noFallthroughCasesInSwitch: true,    /* Report errors for fallthrough cases in switch statement. */
+        noUnusedLocals: true,                /* Report errors on unused locals. */
+        noUnusedParameters: true,            /* Report errors on unused parameters. */
+        noImplicitReturns: true,             /* Report error when not all code paths in function return a value. */
+        noFallthroughCasesInSwitch: true,    /* Report errors for fallthrough cases in switch statement. */
         types: ['mocha', 'chai']
       },
       // transforming the filenames

@@ -1,4 +1,5 @@
 import { expect } from 'chai'
+import { Animal } from '../src/Animal'
 
 describe('A test suite', function () {
   beforeEach(function () { })
@@ -7,5 +8,7 @@ describe('A test suite', function () {
 })
 
 describe('A rogue suite', function () {
-  it('should fail', function () { expect(true).to.be.false; })
+  let expected = 'Bob'
+  let a = new Animal(expected)
+  it('should fail', function () { expect(a.name).to.be.eq(expected) })
 })
