@@ -4,7 +4,7 @@
 
 The node.js development environment has been set-up as a working example for writing and evaluating mocha & chai unit tests.
  
-The purpose is to have the SAME mocha &amp; chai unit tests written in typescript or javascript using ES6 import ( common.js/node.js/webpack) AND then have those unit tests evaluated on the server side (node.js) and client side (via the Chrome browser) automatically by the Karma test runner.
+The purpose is to have the SAME mocha &amp; chai unit tests written in typescript or javascript using import ES6/ES2015 modules (e.g. common.js/node.js/webpack)  AND then have those unit tests evaluated on the server side (node.js) and client side (via the Chrome browser) automatically by the Karma test runner.
 
 ## node.js libraries used
   - @types/chai

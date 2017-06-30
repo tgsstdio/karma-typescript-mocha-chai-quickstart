@@ -56,3 +56,6 @@ typings/
 
 # dotenv environment variables file
 .env
+
+# typescript (e.g webpack) generated file folder for release
+dist/
