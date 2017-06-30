@@ -1,7 +1,7 @@
 {
   "name": "karma-typescript-mocha-chai-quickstart",
   "version": "1.0.0",
-  "description": "A boilerplate dev environment for typescript, karma, mocha & chai",
+  "description": "A boilerplate dev environment for typescript, mocha & chai and karma for unit testing (tdd/bdd)",
   "main": "",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
