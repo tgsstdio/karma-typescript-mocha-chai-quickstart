@@ -1,8 +1,8 @@
 {
-  "name": "karma-4",
+  "name": "karma-typescript-mocha-chai-quickstart",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "A boilerplate dev environment for typescript, karma, mocha & chai",
+  "main": "",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
