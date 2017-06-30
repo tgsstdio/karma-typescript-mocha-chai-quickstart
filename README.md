@@ -8,7 +8,7 @@ The purpose is to have the SAME mocha &amp; chai unit tests written in typescrip
 
 ## node.js libraries used
   - @types/chai
-  - "@types/mocha,
+  - types/mocha
   - chai
   - karma
   - karma-chai
